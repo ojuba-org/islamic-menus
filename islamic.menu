@@ -1,0 +1,27 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+"http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+<Menu>
+  <Name>Applications</Name>
+  <!-- Islamic Software -->
+  <Menu>
+    <Name>Islamic-Software</Name>
+    <Directory>Islamic-Software.directory</Directory>
+    <Include>
+      <And>
+        <Category>X-Islamic-Software</Category>
+        <Not><Category>X-Quran</Category></Not>
+      </And>
+    </Include>
+    <DefaultLayout inline="true" inline_limit="2" inline_header="false">
+      <Merge type="menus"/>
+      <Merge type="files"/>
+    </DefaultLayout>
+    <Menu>
+      <Name>Quran</Name>
+      <Directory>Quran.directory</Directory>
+      <Include>
+        <Category>X-Quran</Category>
+      </Include>
+    </Menu>
+  </Menu> <!-- End Islamic Software -->
+</Menu> <!-- End Applications -->
