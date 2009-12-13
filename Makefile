@@ -1,7 +1,14 @@
 
 INSTALL=install
+po:
+	make -C po all
 
-install:
+in: po
+	for i in *.in; do \
+		intltool-merge -d po $${i} $${i/.in/}; \
+	done
+
+install: in
 	$(INSTALL) -d $(PREFIX)/etc/xdg/menus/applications-merged/
 	$(INSTALL) -d $(PREFIX)/usr/share/desktop-directories/
 	$(INSTALL) -m 0644 islamic.menu $(PREFIX)/etc/xdg/menus/applications-merged/
