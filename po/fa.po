@@ -3,18 +3,19 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST hOJJATOLLAH MADDAHI kOUPAIE <goodlinuxuser@GMAIL.COM>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-12-13 19:20+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: کاربر خوب لینوکس <goodlinuxuser@gmail.com>\n"
+"PO-Revision-Date: 2009-12-20 10:12+0000\n"
+"Last-Translator: Hojjatollah_MaddahiKoupaie <goodlinuxuser@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-01-05 04:48+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
 
 #: ../Islamic-Software.directory.in.h:1
 msgid "Islamic Software"
