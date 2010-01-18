@@ -1,7 +1,7 @@
-# Turkish translation for islamic-menu
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# German translation for islamic-menu
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
 # This file is distributed under the same license as the islamic-menu package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
 #
 msgid ""
 msgstr ""
@@ -10,7 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2009-12-13 19:20+0200\n"
 "PO-Revision-Date: 2010-01-18 00:43+0000\n"
 "Last-Translator: cegerxwin <Unknown>\n"
-"Language-Team: Turkish <tr@li.org>\n"
+"Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,8 +19,8 @@ msgstr ""
 
 #: ../Islamic-Software.directory.in.h:1
 msgid "Islamic Software"
-msgstr "İslami Yazılım"
+msgstr "Islamische Programme"
 
 #: ../Quran.directory.in.h:1
 msgid "Qur'anic Study tools"
-msgstr "Kuran Çalışma araçları"
+msgstr "Koran Lernprogramme"
