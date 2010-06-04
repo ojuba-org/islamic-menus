@@ -1,9 +1,9 @@
 Name:           islamic-menus
 Version:        1.0.3
 Release:        1%{?dist}
-Summary:        Islamic menus for desktops confirming with xdg standards
+Summary:        Islamic menus for desktops conforming with xdg standards
 Group:          User Interface/Desktops
-License:        GPLv2+
+License:        GPLv3+
 URL:            https://www.redhat.com/archives/fedora-games-list/2007-March/msg00003.html
 # No URL as we are upstream
 Source0:        %{name}-%{version}.tar.bz2
@@ -12,7 +12,7 @@ BuildArch:      noarch
 Requires:       redhat-menus hicolor-icon-theme
 
 %description
-Catagorize islamic apps in a menu for the GNOME, KDE and other xdg-confirming desktops
+Catagorize islamic apps in a menu for the GNOME, KDE and other xdg-conforming desktops
 
 %prep
 %setup -q
