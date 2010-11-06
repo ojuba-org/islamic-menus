@@ -1,4 +1,4 @@
-# Italian translation for islamic-menu
+# Moroccan Arabic translation for islamic-menu
 # Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
 # This file is distributed under the same license as the islamic-menu package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: islamic-menu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-12-13 19:20+0200\n"
-"PO-Revision-Date: 2010-11-05 14:54+0000\n"
+"PO-Revision-Date: 2010-11-05 14:49+0000\n"
 "Last-Translator: Karim Oulad Chalha <Unknown>\n"
-"Language-Team: Italian <it@li.org>\n"
+"Language-Team: Moroccan Arabic <ary@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,8 +19,8 @@ msgstr ""
 
 #: ../Islamic-Software.directory.in.h:1
 msgid "Islamic Software"
-msgstr "Islamico Applicazione"
+msgstr "برامج إسلامية"
 
 #: ../Quran.directory.in.h:1
 msgid "Qur'anic Study tools"
-msgstr ""
+msgstr "أدوات تعليم القرأن"
