@@ -1,5 +1,5 @@
 Name:           islamic-menus
-Version:        1.0.3
+Version:        1.0.4
 Release:        1%{?dist}
 Summary:        Islamic menus for desktops conforming with xdg standards
 Group:          User Interface/Desktops
@@ -10,7 +10,7 @@ Source0:        %{name}-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:      noarch
 Requires:       redhat-menus hicolor-icon-theme
-
+BuildRequires:  intltool
 %description
 Catagorize islamic apps in a menu for the GNOME, KDE and other xdg-conforming desktops
 
