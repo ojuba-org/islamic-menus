@@ -13,7 +13,9 @@ pos:
 
 install: all
 	$(INSTALL) -d $(sysconfdir)/xdg/menus/applications-merged/
+	$(INSTALL) -d $(sysconfdir)/xdg/menus/applications-gnome-merged/
 	$(INSTALL) -m 0644 islamic.menu $(sysconfdir)/xdg/menus/applications-merged/
+	$(INSTALL) -m 0644 islamic.menu $(sysconfdir)/xdg/menus/applications-gnome-merged/
 	$(INSTALL) -d $(datadir)/desktop-directories/
 	$(INSTALL) -m 0644 *.directory  $(datadir)/desktop-directories
 	# Install icons

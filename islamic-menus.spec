@@ -46,6 +46,7 @@ fi
 %defattr(-,root,root,-)
 %doc COPYING
 %config(noreplace) %{_sysconfdir}/xdg/menus/applications-merged/islamic.menu
+%config(noreplace) %{_sysconfdir}/xdg/menus/applications-gnome-merged/islamic.menu
 %{_datadir}/desktop-directories/*.directory
 %{_datadir}/icons/hicolor/scalable/categories/*.svg
 
