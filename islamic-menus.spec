@@ -1,5 +1,5 @@
 Name:           islamic-menus
-Version:        1.0.4
+Version:        1.0.5
 Release:        1%{?dist}
 Summary:        Islamic menus for desktops conforming with xdg standards
 Group:          User Interface/Desktops
