@@ -1,7 +1,7 @@
-DESTDIR?=/
+PREFIX?=/usr
 sysconfdir?=$(DESTDIR)/etc
-datadir?=$(DESTDIR)/usr/share
-INSTALL=install
+datadir?=$(DESTDIR)$(PREFIX)/share
+INSTALL=install -p
 
 SOURCES=$(wildcard *.directory.in)
 TARGETS=${SOURCES:.in=}
