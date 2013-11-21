@@ -41,7 +41,6 @@ fi
 %files
 %doc COPYING
 %config(noreplace) %{_sysconfdir}/xdg/menus/applications-merged/islamic.menu
-%config(noreplace) %{_sysconfdir}/xdg/menus/applications-gnome/islamic.menu
 %{_datadir}/desktop-directories/*.directory
 %{_datadir}/icons/hicolor/scalable/categories/*.svg
 
