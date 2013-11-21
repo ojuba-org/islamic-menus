@@ -1,5 +1,5 @@
 %global owner ojuba-org
-%global commit FIXME:THIS_VALUE_IS_VARIABLE_MUST_FIXED_BEFORE_PACKAGING
+%global commit #Write commit number here
 
 Name:			islamic-menus
 Version:		1.0.6
@@ -25,6 +25,7 @@ make %{?_smp_mflags}
 
 %install
 %makeinstall
+rm %{buildroot}%{_sysconfdir}/xdg/menus/applications-gnome-merged/islamic.menu
 
 %post
 /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
