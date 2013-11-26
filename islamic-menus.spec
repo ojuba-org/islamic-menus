@@ -3,7 +3,7 @@
 
 Name:			islamic-menus
 Version:		1.0.6
-Release:		1%{?dist}
+Release:		3%{?dist}
 Summary:		Islamic menus for desktops conforming with XDG standards
 Group:			User Interface/Desktops
 License:		GPLv3+
@@ -24,7 +24,7 @@ XDG-conforming desktops.
 make %{?_smp_mflags}
 
 %install
-%makeinstall
+make install DESTDIR=%{buildroot}
 rm %{buildroot}%{_sysconfdir}/xdg/menus/applications-gnome-merged/islamic.menu
 
 %post
@@ -46,6 +46,12 @@ fi
 %{_datadir}/icons/hicolor/scalable/categories/*.svg
 
 %changelog
+* Tue Nov 26 2013 Mosaab Alzoubi <moceap@hotmail.com> - 1.0.6-3
+- Another tweak of make line.
+
+* Tue Nov 26 2013 Mosaab Alzoubi <moceap@hotmail.com> - 1.0.6-2
+- Repair make install line.
+
 * Thu Nov 21 2013 Mosaab Alzoubi <moceap@hotmail.com> - 1.0.6-1
 - Remove line about applications-gnome-merged due to GNOME_BZ #688972
 
